@@ -1,0 +1,98 @@
+/* Custom Classes */
+.df-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Removing Def Style Of Btn */
+.btn {
+  box-shadow: none !important;
+  background-color: none !important;
+  border-color: none !important;
+}
+
+/* Start Landing */
+.landing {
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  z-index: 1000;
+}
+.landing input {
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 35px;
+}
+.landing .btn-landing {
+  cursor: pointer;
+}
+/* End Landing */
+
+/* Start Head */
+.header .search-input {
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 35px;
+}
+.header .search-btn {
+  cursor: pointer;
+}
+.header .title-cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+/* End Head */
+
+/* Start Body */
+.body .rates-cont img {
+  width: 40px;
+}
+.body .rates-cont .rotten img {
+  width: 30px;
+}
+.body .rates-cont span {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* End Body */
+
+/* Error */
+.error-cont {
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(158, 155, 155, 0.527);
+  z-index: 2000;
+}
+.error-cont .error {
+  width: 550px;
+  height: 300px;
+  flex-direction: column;
+}
+
+/* Media For Sm & Xs */
+
+@media screen and (min-width:0px) and (max-width:767px) {
+  .header .row {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+ .header .input-cont {
+   margin: 20px 0px;
+   justify-content: center !important;
+   align-items: center !important;
+ } 
+ .body .desc-cont {
+   margin: 20px 0px !important;
+ }
+}

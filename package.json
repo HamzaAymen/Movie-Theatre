@@ -1,0 +1,22 @@
+{
+  "name": "movie-theatre",
+  "version": "1.0.0",
+  "description": "This is a small project works with a public api called themoviedb , which can provide you some info about movies and other things",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaAymen/Movie-Theatre"
+  },
+  "author": "Hamza Aymen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamzaAymen/Movie-Overview/issues"
+  },
+  "homepage": "https://github.com/HamzaAymen/Movie-Overview#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
